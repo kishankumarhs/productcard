@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Interactive pricing component</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <div class="Warpper">
+    <div class="title">
+      <h2> Simple, traffic-based pricing</h2>
+      <p> Sign-up for our 30-day trial. No credit card required.</p>
+    </div>
+    <div class="Card">
+      <div class="Card_Warpper">
+        <div class="card_head">
+          <div class="info">100k Pageviews</div>
+          <div class="price">
+            <h1> $16.00 </h1>
+            <p>/month</p>
+          </div>
+        </div>
+        <div class="card_middel">
+          <div class="sliderBar">
+            <input type="range" class="slider" min="1"
+            max="100"
+            value="30"
+            >
+          </div>
+          <div class="caption">
+            <p>Monthly Billing</p>
+            <input type="checkbox" name=""  class="radio">
+            <p> Yearly Billing</p>
+            <span>25% discount</span>
+          </div>
+        </div>
+        <div class="card_footer">
+          <div class="details">
+            <ul>
+              <li class="items">
+                <img src="images/icon-check.svg" alt="" srcset="">
+                <span> Unlimited websites</span>
+              </li>
+              <li class="items"><img src="images/icon-check.svg" alt="" srcset="">
+                <span> 100% data ownership</span>
+              </li>
+              <li class="items">
+                <img src="images/icon-check.svg" alt="" srcset="">
+                <span> Email reports</span>
+              </li>
+            </ul>
+          </div>
+          <div class="button">
+            <button class="btn_container">
+              Start my trial
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
